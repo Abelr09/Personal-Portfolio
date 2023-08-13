@@ -1,8 +1,8 @@
 
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
+    --main-red: #bb3535;
+    --main-blue: #45567dd5;
     --main-gray: #303841;
   }
   
@@ -75,6 +75,7 @@
   a {
     text-decoration: none;
     color: var(--main-white);
+    border-radius: 50px;
   }
   
   img {
@@ -89,8 +90,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    background: #403e50;
+    box-shadow: 2px 2px 4px 0 rgb(37, 102, 187), 4px 4px 16px 0 rgb(91, 77, 151), 0px 0px 24px 2px rgb(77, 84, 145);
     z-index: 10;
   }
   
@@ -127,17 +128,10 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-image: url("img/back.webp");
+    background-size: cover;
   }
-  
-  .welcome-section > p {
-    font-size: 3rem;
-    font-weight: 200;
-    font-style: italic;
-    color: var(--main-red);
-  }
-  
+
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -178,7 +172,7 @@
   
   .project {
     background: var(--main-gray);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     border-radius: 2px;
   }
   
